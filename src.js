@@ -30,7 +30,7 @@
 	}
 
 	function initActions() {
-		ns.elements.$exampleButton.on("click", handleEliteClick);
+		$("body").on("click", ns.elements.$exampleButton, handleEliteClick);
 	}
 
 	function handleEliteClick() {
